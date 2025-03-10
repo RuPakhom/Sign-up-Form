@@ -7,6 +7,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="assets/odin-lined.png" alt="Odin logo" class="logo-img">
+                <p class="logo-text">Odin</p>
+            </div>
+            <div class="footer">
+                <p>Photo by <a href="https://unsplash.com/@ryunosuke_kikuno">Ryunosuke Kikuno</a> on <a href="https://unsplash.com">Unsplash</a></p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="quote">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="" id="form1">
+                <p>Let's do this</p>
+
+                <div class="form-section">
+                    <div class="input-section">
+                        <label for="first_name">First name</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="input-section">
+                        <label for="last_name">Last name</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div class="input-section">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    
+                    <div class="input-section">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" name="phone_number" id="phone_number">
+                    </div>
+                    <div class="input-section">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input-section">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirm_password" required>
+                    </div>
+                </div>
+            </form>
+            <div class="action-btn">
+                <button form="form1">Create account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
